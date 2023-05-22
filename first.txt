@@ -2,3 +2,4 @@
  "i am learning git"
  "i am not a fighter i am lover"
 there is added the bugFix
+test 1
