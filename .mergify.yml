@@ -5,3 +5,11 @@ pull_request_rules:
     actions:
       merge:
         method: merge
+        
+  - name: Ask to resolve conflict
+    conditions:
+      - conflict
+    actions:
+      comments:
+        message: This pull request is now conflicts. 
+
