@@ -11,5 +11,5 @@ pull_request_rules:
       - conflict
     actions:
       comments:
-        message: This pull request is now conflicts. 
+        message: This pull request is now conflicts. Could you fix it @{{author}}
 
